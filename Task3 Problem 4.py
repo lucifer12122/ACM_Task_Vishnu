@@ -5,11 +5,11 @@ def fibonacci_sequence(n):
     return x
 
 def main():
-    T = int(input("Enter the number of test cases: "))
-    for _ in range(T):
+    
         N = int(input())
         sequence = fibonacci_sequence(N)
         print(sequence)
 
 if __name__ == "__main__":
     main()
+
